@@ -1,6 +1,11 @@
 # PHP-WPM-API
 PHP library for Neustar WPM
 
+
+Disclaimer: WIP
+
+
+
 API Docs:
 https://apidocs.wpm.neustar.biz/
 
