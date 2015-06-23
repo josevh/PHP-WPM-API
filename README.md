@@ -4,7 +4,7 @@ PHP library for Neustar WPM
 
 Disclaimer: WIP
 
-
+Status: GET methods for 'Monitoring API' done.
 
 API Docs:
 https://apidocs.wpm.neustar.biz/
