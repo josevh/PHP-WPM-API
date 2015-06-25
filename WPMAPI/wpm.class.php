@@ -24,6 +24,16 @@ class wpm {
             $this->secret = $secret;
     }
 
+    /**
+     * @brief   Processes api calls.
+     *
+     * @param   $service        String      Service name.
+     * @param   $method         String      Method name.
+     * @param   $params         Array       Parameters
+     *
+     * @retval  object  JSON request.
+     */
+
     public function request($service, $method, $params){
 
         $ch = curl_init();
@@ -183,6 +193,21 @@ class wpm {
 
         $service = 'monitor';
         $method = $monitorID;
+
+        return $this->request($service, $method, $params=NULL);
+
+    }
+
+    /**
+     * @brief   Returns a list of all monitors associated with your account, along with information about each.
+     *
+     * @retval  string  JSON request.
+     */
+
+    public function monitorListMonitors() {
+
+        $service = 'monitor';
+        $method = '';
 
         return $this->request($service, $method, $params=NULL);
 
