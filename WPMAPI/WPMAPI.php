@@ -5,7 +5,7 @@ namespace WPMAPI;
 class Exception extends \Exception{
 }
 
-class wpm {
+class WPMAPI {
 
     private $base_url = '';
     private $apikey = '';
@@ -52,7 +52,7 @@ class wpm {
 
         // return XML data
         if ($headers['http_code'] != '200') {
-           echo "An error has occurred. HTTP Code: " . $headers['http_code'];
+        //   echo "An error has occurred. HTTP Code: " . $headers['http_code'];
            return false;
         } else {
            return($data);
