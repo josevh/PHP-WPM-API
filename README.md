@@ -1,8 +1,7 @@
 # PHP-WPM-API
+> **NO LONGER MAINTAINED**
+
 PHP library for Neustar WPM
-
-
-Disclaimer: WIP
 
 Status: GET methods for 'Monitoring API' done.
 
